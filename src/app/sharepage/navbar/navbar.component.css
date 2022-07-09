@@ -1,0 +1,21 @@
+.navbar-light .navbar-nav .nav-link
+{
+    color: var(--secondary-color);
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+.navbar-expand-lg .navbar-collapse {
+    background-color: #dce1d3;
+}
+.container-fluid{
+        padding-right: var(--bs-gutter-x, 0rem)!important; 
+        padding-left: var(--bs-gutter-x, 0rem) !important;
+
+}
+.navbar{
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
